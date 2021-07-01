@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+
+}
+.container {
+    height: 403px;
+    width: 212px;;
+    border:2px solid green;
+    
+    
+}
+.header{
+    width: 100%;
+    height:50px;
+    border:2px solid red;
+    color:white;
+}
+#stereo{
+    display:block;
+    position: absolute;
+    margin: auto;
+    left:0;
+    right:0;
+    top:20px;
+    bottom: auto;
+    background: rgba(25,25,25,1);
+    height: 3px;
+    width: 35px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 2px rgba(80,80,80,0.75), inset -1px -1px 2px 0 rgba(150,150,150,0.75);
+    }
+    
+    #camera{
+    display:block;
+    position: absolute;
+    margin: auto;
+    left:68px;
+    right:auto;
+    top:18px;
+    bottom: auto;
+    background: rgba(25,25,25,1);
+    height: 7px;
+    width: 7px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 2px rgba(80,30,30,0.75), inset -1px -1px 2px 0 rgba(50,50,100,0.75);
+    }
+#inner-header{
+    width: 100%;
+    height: 20px;
+    border: 2px solid blue;
+    background: rgba(10,10,10,1);
+    color:white
+}
+#status{
+    width: 20%;
+    height: 100%;
+    float:right;
+}
+.input{
+    border:2px solid yellow;
+    width: 100%;
+    height:75px;
+    background-color:black;
+}
+.button{
+    border: 2px solid red;
+    color:white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-shadow: none;
+    width: 100%;
+    background-color:black;
+}
+
+.first-column,
+.second-column,
+.third-column,
+.fourth-column,
+.fifth-column{
+    border:2px solid yellow;
+    width: 100%;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color:black;
+}
+div p{
+    background-color: rgba(100,100,100,1);
+    border-radius: 50px;
+    width:40px;
+    margin:auto;
+    padding:12px;
+    text-align: center;
+}
+.right{
+    background-color:orange;
+}
+#zero{
+
+}
